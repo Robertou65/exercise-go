@@ -8,7 +8,8 @@ import (
 func main() {
 	// EJERCICIO: encontrar cuantas veces se repite una palabra en una cadena
 
-	word := "Hola, mi nombre es robert. Mi nombre completo es Robert Hernandez (Robertou65)."
+	word := "Hola, mi nombre es robert. Mi nombre completo es Robert Hernandez (Robertou8)."
+	originalString := word
 
 	word = strings.ToLower(word) // pasando toda la cadena a minusculas
 
@@ -46,4 +47,6 @@ func main() {
 		// i para la key y k para el valor
 		fmt.Println(i, "aparece", k, "veces")
 	}
+	fmt.Println("\n", word)
+	fmt.Println(originalString)
 }
